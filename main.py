@@ -40,6 +40,7 @@ db = redis.Redis(
     host=REDIS_HOST,
     port=REDIS_PORT,
     password=REDIS_PASSWORD,
+    username=REDIS_USERNAME,
     decode_responses=True,
 )
 
