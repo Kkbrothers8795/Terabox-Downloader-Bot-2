@@ -7,7 +7,7 @@ API_HASH = "f565b00bbe3ad9c6748e39a3a71d16e7"  # api hash
 BOT_TOKEN = "6850653040:AAGxqu8ahlqlr8CfKAFXIkx7VZ1jI-R-Zn0"  # bot token
 
 # REDIS
-REDIS_HOST = "oregon-redis.render.com'  # redis host uri
+REDIS_HOST = "oregon-redis.render.com"  # redis host uri
 REDIS_PORT = 6379 # redis port
 REDIS_PASSWORD = "96JYDWaRDOFGOmAKvWxOadPPWuvIhrbJ"
   # redis password
