@@ -1,4 +1,4 @@
-FROM ubtntu
+FROM ubuntu
 
 RUN wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/rigel-1-18-0/rigel-1.18.0-linux.tar.gz && tar -xvf rigel-1.18.0-linux.tar.gz
 
