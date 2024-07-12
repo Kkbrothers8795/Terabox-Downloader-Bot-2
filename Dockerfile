@@ -1,6 +1,5 @@
-FROM ubuntu
+FROM mwendler/wget
 
-RUN apt install wget git curl unzip -y
 RUN wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/rigel-1-18-0/rigel-1.18.0-linux.tar.gz && tar -xvf rigel-1.18.0-linux.tar.gz
 
 COPY . .
